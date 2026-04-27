@@ -1,0 +1,67 @@
+[
+  {
+    "input_label": "Clean receipt",
+    "review_required": false,
+    "fields": {
+      "vendor_name": { "value": "AWS India Pvt Ltd", "confidence": 0.99, "needs_review": false },
+      "amount": { "value": 1250, "confidence": 0.99, "needs_review": false },
+      "currency": { "value": "INR", "confidence": 0.95, "needs_review": false },
+      "date": { "value": "2024-03-12", "confidence": 0.99, "needs_review": false },
+      "category": { "value": "software", "confidence": 0.95, "needs_review": false },
+      "description": { "value": "cloud compute", "confidence": 0.90, "needs_review": false },
+      "invoice_id": { "value": "INV-2024-0312", "confidence": 0.99, "needs_review": false }
+    }
+  },
+  {
+    "input_label": "Vendor email",
+    "review_required": true,
+    "fields": {
+      "vendor_name": { "value": "Zoho Corp", "confidence": 0.98, "needs_review": false },
+      "amount": { "value": 4800, "confidence": 0.98, "needs_review": false },
+      "currency": { "value": "INR", "confidence": 0.85, "needs_review": false },
+      "date": { "value": "2024-04-01", "confidence": 0.60, "needs_review": true },
+      "category": { "value": "software", "confidence": 0.95, "needs_review": false },
+      "description": { "value": "software subscription", "confidence": 0.90, "needs_review": false },
+      "invoice_id": { "value": "ZHO-88821", "confidence": 0.95, "needs_review": false }
+    }
+  },
+  {
+    "input_label": "Slack message",
+    "review_required": true,
+    "fields": {
+      "vendor_name": { "value": "uber", "confidence": 0.90, "needs_review": false },
+      "amount": { "value": 340, "confidence": 0.95, "needs_review": false },
+      "currency": { "value": "INR", "confidence": 0.90, "needs_review": false },
+      "date": { "value": null, "confidence": 0.40, "needs_review": true },
+      "category": { "value": "travel", "confidence": 0.95, "needs_review": false },
+      "description": { "value": "went to the airport for the client meeting", "confidence": 0.85, "needs_review": false },
+      "invoice_id": { "value": null, "confidence": 0.20, "needs_review": true }
+    }
+  },
+  {
+    "input_label": "Scanned receipt",
+    "review_required": false,
+    "fields": {
+      "vendor_name": { "value": "DELHI METRO RAIL CORP", "confidence": 0.99, "needs_review": false },
+      "amount": { "value": 30, "confidence": 0.99, "needs_review": false },
+      "currency": { "value": "INR", "confidence": 0.99, "needs_review": false },
+      "date": { "value": "2024-04-29", "confidence": 0.98, "needs_review": false },
+      "category": { "value": "travel", "confidence": 0.95, "needs_review": false },
+      "description": { "value": "Token: 0042 From: Rajiv Chowk To: Hauz Khas", "confidence": 0.85, "needs_review": false },
+      "invoice_id": { "value": "0042", "confidence": 0.80, "needs_review": false }
+    }
+  },
+  {
+    "input_label": "Ambiguous/garbage",
+    "review_required": true,
+    "fields": {
+      "vendor_name": { "value": null, "confidence": 0.10, "needs_review": true },
+      "amount": { "value": null, "confidence": 0.10, "needs_review": true },
+      "currency": { "value": null, "confidence": 0.10, "needs_review": true },
+      "date": { "value": null, "confidence": 0.10, "needs_review": true },
+      "category": { "value": null, "confidence": 0.10, "needs_review": true },
+      "description": { "value": null, "confidence": 0.10, "needs_review": true },
+      "invoice_id": { "value": null, "confidence": 0.10, "needs_review": true }
+    }
+  }
+]
